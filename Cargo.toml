@@ -1,0 +1,19 @@
+[workspace]
+members = []
+
+[workspace.dependencies]
+
+[package]
+name = "stupid-macros"
+description = "A library of stupid and useless macros for fun."
+repository = "https://github.com/kariy/stupid-macros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[example]]
+name = "repeat"
+
+[[example]]
+name = "timed"
